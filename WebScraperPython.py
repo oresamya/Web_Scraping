@@ -13,5 +13,4 @@ print ( )
 
 list(soup.children)
 
-[type(item) for item in list(soup.children)]
-[soup.element.Doctype, soup.element.NavigableString, soup.element.Tag]
+print ([type(item) for item in list(soup.children)])
